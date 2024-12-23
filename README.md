@@ -1,6 +1,6 @@
 # pinn-traveling-waves-lattices
 
-This project implements a TensorFlow-based physics-informed neural network (PINN) model, `FpuWaveNet`, designed to find travelling wave solutions to the FPUT non-linear lattice system. The model utilizes a characteristic layer for wave speed adjustment, and specialized loss functions to optimize network performance. More information about the model, in addition to theory on the FPUT system and travelling wave, can be found in our paper. Examples of our found solutions can be found in the examples folder each with an annotation of model parameters when it was generated.
+This project implements a TensorFlow-based physics-informed neural network (PINN) model, `FpuWaveNet`, designed to find traveling wave solutions to the FPUT nonlinear lattice system. The model utilizes a characteristic layer for a co-traveling frame, and specialized loss functions to optimize network performance. More information about the model, in addition to theory on the FPUT system and traveling wave, can be found in our paper. Examples of our found solutions can be found in the examples folder each with an annotation of model parameters when it was generated.
 
 The architecture is heavily inspired by the one presented in 'Traveling Wave Solutions of Partial Differential Equations via Neural Networks' (arXiv:2101.08520) by Cho et al.
 
